@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapoor</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <section class="header-nav-bar">
+            <nav>
+                <button class="header-menu-burger hidden " onclick="showMenu()"><i class="fas fa-bars"></i></button>
+                <ul class="header-nav-bar-item-1" id="menu-1">
+                    <li class="header-nav-bar-item-1-block"><a href="https://www.sheypoor.com/ایران">همه آگهی‌ها</a></li>
+                    <li class="header-nav-bar-item-1-block" onmouseover="helpMenuShow()" onmouseout="helpMenuOff()" onclick="showMenuHelp()">
+                        <section>
+                            <div class="help-i">
+                                <i class="fa-solid fa-sort-down"></i>
+                            </div>
+                            <a href="#">پشتیبانی</a>
+                        </section>
+                        <section class="help" id="help">
+                            <ul>
+                                <li><a href="#">راهنما و پشتیبانی</a></li>
+                                <li><a href="#"> تماس با پشتیبانی</a></li>
+                            </ul>
+                        </section>
+                     </li>
+                </ul>
+                <ul class="header-nav-bar-item-2" id="menu-2">
+                    <li class="header-nav-bar-item-2-block"><a href="https://www.sheypoor.com/session/myChats">چت های من</a><i class="fa-solid fa-message"></i></li>
+                    <li class="header-nav-bar-item-2-block" onmouseover="accountMenuShow()" onmouseout="accountMenuOff()" onclick="showMenuAccount()">
+                        <section>
+                            <div class="account-i">
+                                <i class="fa-solid fa-sort-down"></i>
+                            </div>
+                            <a href="#">حساب من</a>
+                            <i class="fa-solid fa-circle-user"></i>
+                        </section>
+                        <section class="accountMenu" id="accountMenu">
+                            <ul>
+                                <li class="title-item"><a href="#">ورود/ثبت نام</a></li>
+                                <li><a href="#">پسندیده ها</a></li>
+                                <li><a href="#">آگهی های من</a></li>
+                                <li><a href="#">خرید های من</a></li>
+                                <li><a href="#">مدیریت سفارش ها</a></li>
+                                <li><a href="#">جستجوهای من</a></li>
+                                <li><a href="#">چت های من</a></li>
+                            </ul>
+                        </section>
+                    
+                    </li>
+                </ul>
+                <section class="clear-fix"></section>
+            </nav>
+            <section class="clear-fix"></section>
+        </section>
+
+        <section class="header-logo">
+            <a href="#" class="header-logo-a"><img src="images/logo.png" alt="شیپور" class="header-logo-img"></a>
+            <a href="#" class="free-advertisment"><i class="fa-solid fa-plus"></i><span>ثبت آگهی رایگان</span></a>
+            <section class="clear-fix"></section>
+        </section>
+    </header>
+
+    
+    <main class="main" onmousewheel ="mySwiper1()">
+        <section class="main-title">
+            <h1>نیازمندیهای رایگان شیپور</h1>
+            <p> <strong> خرید و فروش خودرو، املاک، آپارتمان، گوشی موبایل، تبلت، لوازم خانگی، لوازم دست دوم، استخدام و هر چه فکر کنید! </strong> </p>
+        </section>
+
+        <section class="main-filter">
+            <form action="" class="main-filter-list">
+                <section class="filter-items">
+                    <input type="text" placeholder="جستجو..." class="filter-search">
+                    <section class="filter-group"><span class="">همه گروه ها</span><i class="fa-solid fa-sort-down"></i></section>
+                    <section class="filter-city"><span class="">همه ایران</span><i class="fa-solid fa-sort-down"></i></section>
+                </section>
+                <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i><span>جستجو</span></button>
+                <section class="clear-fix"></section>
+            </form>
+            <section class="clear-fix"></section>
+        </section>
+
+        <section class="categories-card">
+            <ul class="card-group-1">
+                <li class="card-group-1-items">
+                    <section class="card-title">
+                        <i class="fa-solid fa-car"></i>
+                        <ul>
+                            <li class="hover">وسایل نقلیه</li>
+                            <li><span>(۱۶۵,۴۰۵)</span></li>
+                            <section class="clear-fix"></section>
+                        </ul>
+                        <section class="clear-fix"></section>    
+                    </section>
+                    <a href="#">نمایش همه</a>
+                    <section class="clear-fix"></section>
+                    <section class="card-tages">
+                        <p>خودرو</p>
+                        <p>موتور سیکلت</p>
+                        <p>خودرو کلاسیک</p>
+                        <p>سنگین و نیمه سمگین</p>
+                        <p>کشاورزی و عمران</p>
+                    </section>
+                    <section class="clear-fix"></section>
+                </li>
+                <li class="card-group-1-items">
+                    <section class="card-title">
+                        <i class="fa-solid fa-city"></i>
+                        <ul>
+                            <li class="hover">املاک</li>
+                            <li><span>(۳۰۲,۹۱۰)</span></li>
+                            <section class="clear-fix"></section>
+                        </ul>
+                        <section class="clear-fix"></section>
+                    </section>
+                    <a href="#">نمایش همه</a>
+                    <section class="clear-fix"></section>
+                    <section class="card-tages">
+                        <p>رهن و اجاره خانه و آپارتمان</p>
+                        <p>خرید و فروش خانه و آپارتمان</p>
+                        <p>اجاره کوتاه مدت ویلا و سوئیت</p>
+                        <p>رهن و اجاره اداری، تجاری و صنعتی</p>
+                        <p>خرید و فروش اداری، تجاری و صنعتی</p>
+                    </section>
+                    <section class="clear-fix"></section>
+                </li>
+                <li class="card-group-1-items">
+                    <section class="card-title">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <ul>
+                            <li class="hover">استخدام</li>
+                            <li><span>(۳۶,۲۹۴)</span></li>
+                            <section class="clear-fix"></section>
+                        </ul>
+                        <section class="clear-fix"></section>
+                    </section>
+                    <a href="#">نمایش همه</a>
+                    <section class="clear-fix"></section>
+                    <section class="card-tages">
+                        <p>آرایشگر | اپیلاسیون کار</p>
+                        <p>آشپز و مشاغل مرتبط</p>
+                        <p>انباردار</p>
+                        <p>بازاریاب | ویزیتور</p>
+                        <p>برنامه نویس | کارشناس شبکه</p>
+                    </section>
+                    <section class="clear-fix"></section>
+                </li>
+                <li class="card-group-1-items">
+                    <section class="card-title">
+                        <i class="fa-solid fa-wrench"></i>
+                        <ul>
+                            <li class="hover">خدمات و کسب و کار ها</li>
+                            <li><span>(۹۵,۷۵۶)</span></li>
+                            <section class="clear-fix"></section>
+                        </ul>
+                        <section class="clear-fix"></section>
+                    </section>
+                    <a href="#">نمایش همه</a>
+                    <section class="clear-fix"></section>
+                    <section class="card-tages">
+                        <p>آرایشگری و زیبایی</p>
+                        <p>آموزش</p>
+                        <p>اجاره لوازم</p>
+                        <p>اسباب کشی و حمل و نقل</p>
+                        <p>اینترنت ، رایانه و موبایل</p>
+                    </section>
+                    <section class="clear-fix"></section>
+                </li>
+                <section class="clear-fix"></section>
+            </ul>
+            <section class="clear-fix"></section>
+            <ul class="card-group-2">
+                <li class="card-group-2-items">
+                    <i class="fa-solid fa-couch"></i>
+                    <p>لوازم خانگی</p>
+                    <small>(۱۱۰,۷۹۰)</small>
+                </li>
+                <li class="card-group-2-items">
+                    <i class="fa-solid fa-umbrella-beach"></i>
+                    <p>ورزش فرهنگ فراغت</p>
+                    <small>(۷۶,۰۷۶)</small>
+                </li>
+                <li class="card-group-2-items">
+                    <i class="fa-solid fa-tv"></i>
+                    <p>لوازم الکترونیکی</p>
+                    <small>(۳۱,۶۲۶)</small>
+                </li>
+                <li class="card-group-2-items">
+                    <i class="fa-solid fa-handshake-simple"></i>
+                    <p>صنعتی، اداری و تجاری</p>
+                    <small>(۵۸,۵۲۵)</small>
+                </li>
+                <li class="card-group-2-items">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <p>موبایل، تبلت و لوازم</p>
+                    <small>(۲۴,۳۴۴)</small>
+                </li>
+                <li class="card-group-2-items">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <p>لوازم شخصی</p>
+                    <small>(۶۱,۹۰۵)</small>
+                </li>
+                <section class="clear-fix"></section>
+            </ul>
+        </section>
+
+        <div class="adver">
+            <section class="nav-secure-buy" onmousewheel ="mySwiper1()">
+                <div class="swiper mySwiper1" id="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <section class="info-secure-buy">
+                                <p class="secure-buy-logo"><i class="fa-solid fa-shield-halved"></i></p>
+                                <h4 class="secure-buy-title">خرید امن</h4>
+                                <p class="secure-buy-p">مبلغ پرداختی شما به امانت نزد شیپور می‌ماند تا کالا برایتان ارسال ‌شود، پس از دریافت کالا با تاییدِ شما مبلغ را به فروشنده منتقل می‌کنیم.</p>
+                                <p class="secure-buy-f"><a href="#">نمایش همه</a></p>
+                                <section class="clear-fix"></section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-logo">
+                                    <img src="images/logo-1.jpg" alt="لوازم خانگی ماهان">
+                                </section>
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-1.jpg" alt=" کولرگازی 18 هزار اوجنرال ASGA18UNWA "></span>
+                                     </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> کولرگازی 18 هزار اوجنرال ASGA18UNWA </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong class="">۱۳,۰۰۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span class=""> گلستان، گنبدکاووس </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-logo">
+                                    <img src="images/logo-2.jpg" alt="لوازم خانگی ماهان">
+                                </section>
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-2.jpg" alt=" گوشیهای ضدضربه ومقاوم4سیمکارت/باتری22هزارعالی جدید+ارسال "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2><a href="#"> گوشیهای ضدضربه ومقاوم4سیمکارت/باتری22هزارعالی جدید+ارسال </a></h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۸۳۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span> تهران، تهران، بازار </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-logo">
+                                    <img src="images/logo-3.jpg" alt="لوازم خانگی ماهان">
+                                </section>
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-3.webp" alt=" گوشیهای ضدضربه ومقاوم4سیمکارت/باتری22هزارعالےباگارانتی+ارسال "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> گوشیهای ضدضربه ومقاوم4سیمکارت/باتری22هزارعالےباگارانتی+ارسال </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۹۵۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span> تهران، تهران، بازار </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-4.jpg" alt=" علفتراش اره موتوری دستگاه جوش دریل سمپاش کفکش پمپ آب فرز "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> علفتراش اره موتوری دستگاه جوش دریل سمپاش کفکش پمپ آب فرز </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۳,۰۰۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span class=""> مازندران، خرم آباد، خیابان مطهری </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-5.jpg" alt=" میخکوب باروتی شیارزن سنگ رومیزی میخکوب اره گردبر عمودبر دریل "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> میخکوب باروتی شیارزن سنگ رومیزی میخکوب اره گردبر عمودبر دریل </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۶,۹۰۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span class=""> مازندران، تنکابن، پسکلایه بزرگ </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-6.webp" alt=" کتونی نایک تزریق "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> کتونی نایک تزریق </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۴۳۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span class=""> تهران، تهران، بازار </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-logo">
+                                    <img src="images/logo-7.jpg" alt="لوازم خانگی ماهان">
+                                </section>
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-7.jpg" alt=" مهره مار شناسنامه دار تایید شده قدرت ارتعاش بالا 290 مگاهرتز "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> مهره مار شناسنامه دار تایید شده قدرت ارتعاش بالا 290 مگاهرتز </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۲,۹۰۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span class=""> تهران، تهران، الهیه </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="swiper-slide">
+                            <section class="advertisments w-215x m-0">
+                                <section class="advertisments-img">
+                                    <a href="#">
+                                        <span><img src="images/advertise-8.webp" alt=" باسکول 1200کیلویی چرخدار "></span>
+                                    </a>
+                                </section>
+                                <section class="advertisments-content">
+                                    <section class="advertisments-title">
+                                        <h2> <a href="#"> باسکول 1200کیلویی چرخدار </a> </h2>
+                                    </section>
+                                    <section class="advertisments-detail">
+                                        <p class="advertisments-detail-p1">
+                                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                                        </p>
+                                        <p class="advertisments-detail-p2">
+                                            <strong>۱۲,۳۰۰,۰۰۰</strong> 
+                                            <small>تومان</small>
+                                        </p>
+                                        <p class="advertisments-detail-p3">
+                                            <span class=""> تهران، تهران، یافت آباد - تهرانیه </span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="nav-secure-buy-btn1"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="nav-secure-buy-btn2"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </section>
+
+
+
+    
+    
+            <section class="advertisments">
+                <section class="advertisments-logo">
+                    <img src="images/logo-9.jpg" alt="املاک وی آی پی اوپال">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#" >
+                        <span><img src="images/advertise-9.webp" alt=" 97متر نوساز / پونک /  در شیپور" title="\97متر نوساز / پونک / "></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> 97متر نوساز / پونک /  </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۷,۰۰۰,۰۰۰,۰۰۰</strong> 
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، پونک  تهران، تهران، پونک </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-10.jpg" alt="رهن و اجاره آپارتمان 85 متری شیک در جاده لاهیجان ،لنگرود در شیپور" title="رهن و اجاره آپارتمان 85 متری شیک در جاده لاهیجان ،لنگرود"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> رهن و اجاره آپارتمان 85 متری شیک در جاده لاهیجان ،لنگرود </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small class="attr-label">رهن:</small>
+                            <strong class="item-price">۲۰۰,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <small>اجاره:</small>
+                            <strong>۳,۰۰۰,۰۰۰</strong> 
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span class=""> گیلان، لنگرود، جاده لاهیجان </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-logo">
+                    <img src="images/logo-11.jpg" alt="املاک یاس نو">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-11.jpg" alt="فروش آپارتمان 44 متر.یکخواب.فول.تهرانپارس در شیپور" title="فروش آپارتمان 44 متر.یکخواب.فول.تهرانپارس"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش آپارتمان 44 متر.یکخواب.فول.تهرانپارس </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۲,۰۵۰,۰۰۰,۰۰۰</strong> 
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span class=""> تهران، تهران، تهرانپارس شرقی </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-logo">
+                    <img src="images/logo-12.jpg" alt="املاک شایان">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-12.jpg" alt="فروش آپارتمان75متری در شیپور" title="فروش آپارتمان75متری"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش آپارتمان75متری </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۷۵۰,۰۰۰,۰۰۰</strong> 
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span class=""> گیلان، تالش، مرکز شهر </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-logo">
+                    <img src="images/logo-13.jpg" alt="املاک تی شی نی">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-13.jpg" alt="فروش پردیس فاز 11 در شیپور" title="فروش پردیس فاز 11"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش پردیس فاز 11 </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۱,۱۵۰,۰۰۰,۰۰۰</strong> 
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span class=""> تهران، پردیس </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-14.jpg" alt="87 متری پردیس فاز 11 زون 1 شیک طبقه 5 در شیپور" title="87 متری پردیس فاز 11 زون 1 شیک طبقه 5"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> 87 متری پردیس فاز 11 زون 1 شیک طبقه 5 </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small>رهن:</small>
+                            <strong>۲۰۰,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <small>اجاره:</small>
+                            <strong>۹۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span class=""> تهران، پردیس، فاز 11 </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-15.jpg" alt="المنت مولیبدن کوره sic المنت سیلیکون کارباید در شیپور" title="المنت مولیبدن کوره sic المنت سیلیکون کارباید"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> المنت مولیبدن کوره sic المنت سیلیکون کارباید </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۱۳,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، بازار </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-logo">
+                    <img src="images/logo-16.jpg" alt="پلاسکو تک">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-16.jpg" alt="ظرف فریز و نگهداری در شیپور" title="ظرف فریز و نگهداری"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> ظرف فریز و نگهداری </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۲۵,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> آذربایجان شرقی، تبریز، سیلاب </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-17.jpg" alt="لباس بچه گانه رنگین کمان در شیپور" title="لباس بچه گانه رنگین کمان"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> لباس بچه گانه رنگین کمان </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۸۸,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> مازندران، ساری، خیابان ورزش </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-18.webp" alt="گل شیپور فرشته عطری در شیپور" title="گل شیپور فرشته عطری"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> گل شیپور فرشته عطری </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۴۵,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> مازندران، ساری، هولا - ذغالچال </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-logo">
+                    <img src="images/logo-19.jpg" alt="فروشگاه ره آورد الکترونیک">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-19.jpg" alt="رله LZL-24H در شیپور" title="رله LZL-24H"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> رله LZL-24H </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۲۸۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، میرداماد </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-logo">
+                    <img src="images/logo-20.jpg" alt="پلاسکو تک">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-20.jpg" alt="ظرف نگهدارنده دوتایی درب دار در شیپور" title="ظرف نگهدارنده دوتایی درب دار"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> ظرف نگهدارنده دوتایی درب دار </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۳۵,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> آذربایجان شرقی، تبریز، سیلاب </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-21.webp" alt="دوربین بالت ضد آب بیسیم مدل KS74 در شیپور" title="دوربین بالت ضد آب بیسیم مدل KS74"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> دوربین بالت ضد آب بیسیم مدل KS74 </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۱,۱۴۹,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، جمهوری </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-logo">
+                    <img src="images/logo-22.jpg" alt="ویرا بوتیک">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-22.jpg" alt="شلوار اسلش چاپ جردن در شیپور" title="شلوار اسلش چاپ جردن"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> شلوار اسلش چاپ جردن </a> </h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p1">
+                            <small><i class="fa-solid fa-shield-halved"></i> خرید امن </small>
+                        </p>
+                        <p class="advertisments-detail-p2">
+                            <strong>۱۴۹,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> البرز، کرج، گلشهر </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-logo">
+                    <img src="images/logo-23.jpg" alt="گروه بزرگ و  تخصصی آرکا">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-23.jpg" alt="فروش آپارتمان 74 متر در جنت آباد مرکزی در شیپور" title="فروش آپارتمان 74 متر در جنت آباد مرکزی"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش آپارتمان 74 متر در جنت آباد مرکزی </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۴,۶۸۹,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، جنت آباد مرکزی </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-24.jpg" alt="املاک"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> رهن آپارتمان 95 متری در شهرک گلشهر  </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p3">
+                            <span> زنجان، ابهر </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-25.jpg" alt="آپارتمان 90 متری در دردشت در شیپور" title="آپارتمان 90 متری در دردشت"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> آپارتمان 90 متری در دردشت </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <small>رهن:</small>
+                            <strong>۵۲۰,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، نارمک </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-logo">
+                    <img src="images/logo-26.jpg" alt="املاک متین">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-26.jpg" alt="فروش آپارتمان 41 متر در جیحون در شیپور" title="فروش آپارتمان 41 متر در جیحون"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش آپارتمان 41 متر در جیحون </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۱,۱۵۰,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، جیحون </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-27.jpg" alt="فروش زمین مسکونی 500 متر در جاده نظامی در شیپور" title="فروش زمین مسکونی 500 متر در جاده نظامی"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش زمین مسکونی 500 متر در جاده نظامی </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong class="item-price negotiated">قیمت توافقی</strong>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> مازندران، قائم شهر، جاده نظامی </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-logo">
+                    <img src="images/logo-28.jpg" alt="بزرگ شهر نور">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-28.jpg" alt="فروش ویلا 200 متر در ونوش رویان جنگلی سنددار در شیپور" title="فروش ویلا 200 متر در ونوش رویان جنگلی سنددار"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش ویلا 200 متر در ونوش رویان جنگلی سنددار </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۵,۸۰۰,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> مازندران، نور، مرکز شهر </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-29.jpg" alt="فروش زمین مسکونی 200 متر در جاده نظامی در شیپور" title="فروش زمین مسکونی 200 متر در جاده نظامی"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش زمین مسکونی 200 متر در جاده نظامی </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>قیمت توافقی</strong>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> مازندران، قائم شهر، جاده نظامی </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-30.jpg" alt="فروش لپ تاپ در شیپور" title="فروش لپ تاپ"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش لپ تاپ </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>قیمت توافقی</strong>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> سیستان و بلوچستان، زاهدان </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments">
+                <section class="advertisments-logo">
+                    <img src="images/logo-31.jpg" alt="املاک متین">
+                </section>
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-31.jpg" alt="فروش آپارتمان 101 متر /فول امکانات /در سی متری جی در شیپور" title="فروش آپارتمان 101 متر /فول امکانات /در سی متری جی"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش آپارتمان 101 متر /فول امکانات /در سی متری جی </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۲,۹۹۰,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> تهران، تهران، سی متری جی </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="advertisments ml-0">
+                <section class="advertisments-img">
+                    <a href="#">
+                        <span><img src="images/advertise-32.jpg" alt="ورزش فرهنگ فراغت"></span>
+                    </a>
+                </section>
+                <section class="advertisments-content">
+                    <section class="advertisments-title">
+                        <h2> <a href="#"> فروش سگ اشپیز فوق العاده زیبا و اصیل </a></h2>
+                    </section>
+                    <section class="advertisments-detail">
+                        <p class="advertisments-detail-p2">
+                            <strong>۵,۰۰۰,۰۰۰</strong>
+                            <small>تومان</small>
+                        </p>
+                        <p class="advertisments-detail-p3">
+                            <span> مازندران، ساری، جاده فرح آباد </span>
+                        </p>
+                    </section>
+                </section>
+            </section>
+
+            <section class="advertisments-btn">
+                <a href="#">نمایش همه آگهی ها</a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-links">
+            <section class="row">
+                <section class="col-center col-style-1">
+                    <section class="col-1">
+                        <ul>
+                            <li class="title"><strong>شیپور</strong></li>
+                            <li><a href="#">درباره شیپور</a></li>
+                            <li><a href="#">بلاگ</a></li>
+                            <li><a href="#">نقشه سایت</a></li>
+                            <li><a href="#">فرصت های شغلی</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-2">
+                        <ul>
+                            <li class="title"><strong>راهنمای مشتریان</strong></li>
+                            <li><a href="#">سوالات متداول</a></li>
+                            <li><a href="#">تماس با پشتیبانی</a></li>
+                            <li><a href="#">راهنما و پشتیبانی</a></li>
+                            <li><a href="#">قوانین و مقررات</a></li>
+                        </ul>
+                    </section>
+                    <section class="col-3">
+                        <ul>
+                            <li class="title"><strong>خدمات</strong></li>
+                            <li><a href="#">همه فروشگاه‌ها</a></li>
+                            <li><a href="#">همه مشاوران</a></li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="col-center col-style-2">
+                    <section class="col-5">
+                        <ul>
+                            <li class="direct-download display"><a href="#" class="direct-download"></a></li>
+                            <li class="sibapp-download display"><a href="#" class="sibapp-download"></a></li>
+                            <li class="all-market relative display">
+                                <a href="#" class="all-market">
+                                    <span class="all-market-s1">همه مارکت ها</span>
+                                    <span class="all-market-s2">• • •</span>
+                                </a>
+                            </li>
+                        </ul>  
+                    </section>
+                    <section class="col-4">
+                        <div class="standard">
+                            <img src="images/ecunion.png">
+                        </div>
+                        <div class="standard">
+                            <a href="#" alt="نماد اعتماد الکترونیکی">
+                                <img src="images/enamad.png">
+                            </a>
+                        </div>
+                        <div class="standard">
+                            <img src="images/samandehi.png">
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <section class="clear-fix"></section>
+        </section>
+
+        <section class="footer-socialMedia">
+            <section class="footer-describe">
+                <span>کليه حقوق اين سایت متعلق به شرکت نت تجارت اهورا (شیپور) است.</span>
+            </section>
+            <ul class="footer-socialMedia-links">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ml-8x mr-8x"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <section class="clear-fix"></section>
+        </section>
+        <section class="clear-fix"></section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="JS/app.js"></script>
+</body>
+</html>
